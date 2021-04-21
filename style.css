@@ -1,3 +1,26 @@
 body {
-    background- color; bisque;
+    background-color: bisque;
+}
+
+header, footer {
+    background-color: rgb(50, 109, 168);
+    border: black 1px solid;
+  
+}
+h1{
+    color: #f0f2f5;
+    text-align: center;
+    
+}
+nav{
+    text-align: center;
+}
+
+li{
+    border: black 2px solid;
+    display: inline;
+    background-color: purple; 
+    padding: 5px 10px;
+    margin: 0px 20px;
+  
 }
