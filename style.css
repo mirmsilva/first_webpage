@@ -7,19 +7,36 @@ header, footer {
     border: black 1px solid;
   
 }
-h1{
+h1 {
     color: #f0f2f5;
     text-align: center;
     
 }
-nav{
+nav {
     text-align: center;
 }
 
-li{
+li {
     border: black 2px solid;
     display: inline;
     background-color: rgb(192, 132, 20); 
     padding: 5px 5px;
     margin: 5px 20px; 
+}
+img {
+    max-width: 50%;
+    height: 50%;
+    margin: 20px 20px;
+}
+#ptag_color {
+    color:rgb(107, 56, 107);
+}
+#other_color {
+    color:rgb(107, 56, 107);
+}
+article {
+    border: solid black 2px;
+    margin: 20px 20px;
+    text-align: center;
+    background-color: gray;
 }
