@@ -15,14 +15,13 @@ function petQuiz(){
         document.write('<h3>Great! you can get both!</h3>');
     }else if(catPrompt.toLowerCase() == 'yes' && dogPrompt.toLowerCase() =='no') {
         document.write('<h3>Great! Get a dog!</h3>');
-    
-}
+    }
 }
 
-function addPicture(){
+function addPictures(){
     numberOfPictures = prompt ('How many pictures do you want to see?');
-    url = "https://www.halifaxhumanesociety.org/zupload/library/153/-703-700x500-0.jpg?ztv=20190514142532"
+    url = "http://yourdost-blog-images.s3-ap-southeast-1.amazonaws.com/wp-content/uploads/2016/01/03165939/Dogs-360x270.jpg"
     for(let i = 0; i < numberOfPictures; i ++){
-        document.write('<img src"' + url + '">');
+        document.write('<img src="' + url + '">');
     }
 }
